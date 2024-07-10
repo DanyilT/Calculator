@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditTextCalculatorStyle" parent="android:Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">end|bottom</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:inputType">none</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:hint">o(〃＾▽＾〃)o</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextViewCalculatorStyle" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">end</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ButtonCalculatorStyle" parent="Widget.Material3.Button">
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="ButtonCalculatorStyle.Accent" parent="ButtonCalculatorStyle">
+        <item name="backgroundTint">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
